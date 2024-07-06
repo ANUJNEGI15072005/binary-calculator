@@ -32,8 +32,8 @@ This project is a simple web-based application that converts decimal numbers to 
 - HTML5
 - CSS3
 - JavaScript
-# Setup and Usage
-## File Structure
+## Setup and Usage
+### File Structure
 - `index.html`: The main HTML file that contains the structure of the web page.
 - `style.css`: The CSS file for styling the web page.
 - `script.js`: The JavaScript file that contains the logic for converting decimal values to binary.
