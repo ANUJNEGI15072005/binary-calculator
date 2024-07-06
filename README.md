@@ -46,11 +46,6 @@ This project is a simple web-based application that converts decimal numbers to 
 ## Responsive Design
 - The application features a responsive design that adapts to various screen sizes.
 - On smaller screens (max-width: 690px), the layout switches to a more compact design to ensure usability on mobile devices.
-## License
-
-License
-This project is open-source and available under the [MIT License.](https://choosealicense.com/licenses/mit/)
-
 
 ## Acknowledgements
 
