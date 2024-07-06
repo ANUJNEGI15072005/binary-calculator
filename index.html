@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>DECIMAL TO BINARY CALCULATOR</h1>
+    </header>
+    <div class="body">
+        
+        <div class="overlay">
+            <div class="in">
+                <label for="value">ENTER DECIMAL VALUE :</label>
+                <input type="text" id="value" placeholder="">
+            </div>
+            <div class="get">
+                <button type="button" id="get" onclick="getbin()">GET BINARY</button>
+            </div>
+            <div class="out">
+                <label for="binary">BINARY VALUE :</label>
+                <input type="text" id="binary" placeholder="" readonly>
+            </div>
+        </div>
+
+        <div class="overlay2">
+            <div class="in2">
+                <div class="c1"><label for="value2">ENTER DECIMAL VALUE </label></div>
+                <div class="c2"><input type="text" id="value2" placeholder=""></div>
+            </div>
+            <div class="get2">
+                <button type="button" id="get2" onclick="getbin2()">GET BINARY</button>
+            </div>
+            <div class="out2">
+                <div class="c1"><label for="binary2">BINARY VALUE </label></div>
+                <div class="c2"><input type="text" id="binary2" placeholder="" readonly></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
